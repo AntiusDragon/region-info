@@ -1,0 +1,44 @@
+.counrty {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 20rem;
+  height: min-content;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+.fotoText {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.foto {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: #000;
+}
+.regionInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  /* background-color: aqua; */
+}
+.title {
+  font-size: 1.5rem;
+  padding: 0 1.5rem 0 0;
+  /* padding-bottom: 0.5rem; */
+}
+.description {
+  display: none;
+}
+.counrty:hover .description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+p {
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  background-color: #0002;
+}
